@@ -868,11 +868,13 @@
       var filter = new Lampa.Filter(object);
       var sources = {
         uatut: uatut,
-        uaflix: uaflix
+        uaflix: uaflix,
+        CikavaIdeya: CikavaIdeya
       };
       var balanser_titles = {
         uaflix: 'UAflix',
-        uatut: 'UATuT'
+        uatut: 'UATuT',
+        CikavaIdeya: 'CikavaIdeya'
       };
       var last;
       var extended;
@@ -882,7 +884,7 @@
       var initialized;
       var balanser_timer;
       var images = [];
-      var filter_sources = ['uatut', 'uaflix'];
+      var filter_sources = ['uatut', 'uaflix', 'CikavaIdeya'];
       var filter_translate = {
         season: Lampa.Lang.translate('torrent_serial_season'),
         voice: Lampa.Lang.translate('torrent_parser_voice'),
