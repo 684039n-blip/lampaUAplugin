@@ -4,7 +4,7 @@
     // ==================== КОНФІГУРАЦІЯ ====================
     var UAFLIX_CONFIG = {
         name: 'UaFlix',
-        api_base: 'http://ВАШ_СЕРВЕР:9118', // ЗАМІНИТИ НА ТВІЙ АДРЕС!
+        api_base: 'http://http://192.168.31.131:9118', // ЗАМІНИТИ НА ТВІЙ АДРЕС!
         endpoints: {
             search: '/uaflix',
             movie: '/uaflix',
